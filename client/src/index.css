@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  @apply bg-[#f8f7ff]
+}
+
+.contain{
+  @apply max-xl:p-[5px] xl:px-[15rem]
+}
