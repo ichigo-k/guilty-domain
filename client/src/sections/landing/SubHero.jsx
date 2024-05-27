@@ -13,7 +13,7 @@ function SubHero() {
         <div className="md:w-1/2 w-full flex justify-center mt-[1rem] ">
             <ul>
                 <li className='flex gap-2 text-lg h-5 items-center mb-3 '>
-                    <Check className='size-5 shrink-0 text-green-600'/> Quality and ffordable
+                    <Check className='size-5 shrink-0 text-green-600'/> Quality and affordable
                 </li>
                 <li className='flex gap-2 text-lg h-5 items-center  mb-3'>
                     <Check className='size-5 shrink-0 text-green-600'/> High quality, durable material
