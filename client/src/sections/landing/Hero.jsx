@@ -1,6 +1,6 @@
 import React from 'react'
 import shirtImage from "../../assets/images/hero_shirt1.png"
-import { Check, ShoppingBag } from 'lucide-react'
+import {ShoppingBag } from 'lucide-react'
 import {Link} from "react-router-dom"
 
 function Hero() {
@@ -9,7 +9,7 @@ function Hero() {
         <div className='contain flex max-md:flex-col '>
         <div className='lg:w-1/2 w-full'>
             <div className='w-fit text-5xl max-lg:text-3xl md max-md:text-center text-gray-800 tracking-tight leading-tight font-bold  mt-10 text-left md:ml-10 text-balance max-md:mt-4 '>
-            Premium Outfits Made  in <span className='bg-green-600 text-white px-2'>GHANA</span>
+            Premium Outfits Made  in <span className='text-green-600 '>GHANA</span>
             <p className='mt-4 text-lg text-gray-500 md:pr-10 max-w-prose text-center md:text-left font-semibold'>
               Our apparel is meticulously crafted from the finest 
               <span className='text-green-500'> materials</span> and engineered for 
