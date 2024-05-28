@@ -1,5 +1,5 @@
 import React from 'react'
-import shirtImage from "../../assets/images/hero_shirt1.png"
+import shirtImage from "../../assets/images/shirt2.png"
 import {ShoppingBag } from 'lucide-react'
 import {Link} from "react-router-dom"
 
