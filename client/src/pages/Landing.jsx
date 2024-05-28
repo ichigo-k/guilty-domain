@@ -3,9 +3,11 @@ import Header from '../components/Header'
 import Hero from '../sections/landing/Hero'
 import Brands from '../sections/landing/Brands'
 import SubHero from '../sections/landing/SubHero'
-import Footer from '../components/Footer'
 import Testimonial from '../sections/landing/Testimonial'
 import FeaturedProducts from '../sections/landing/FeaturedProducts'
+import Cta from '../sections/landing/Cta'
+import Faq from '../sections/landing/Faq'
+import Footer from "../components/Footer"
 
 function Landing() {
   return (
@@ -15,7 +17,10 @@ function Landing() {
       <SubHero/>
       <FeaturedProducts/>
       <Testimonial/>
+      <Faq/>
       <Brands/>
+      <Cta/>
+      <Footer/>
     </>
   )
 }

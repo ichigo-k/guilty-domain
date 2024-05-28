@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <div className='w-full bg-white shadow-sm sticky top-0 h-[50px] flex items-center  justify-between contain z-50'>
+    <div className='w-full bg-white/90 shadow-sm sticky top-0 h-[60px] flex items-center  justify-between contain z-50 '>
 
         <h1 className='text-xl font-bold text-green-600'>Guilty<span className=' text-black font-bold'>Domain</span> </h1>
         
