@@ -17,7 +17,7 @@ function Accordian({question, answer}) {
     </button>
     <div className={`grid overflow-hidden transition-all duration-300 ease-in-out ${accordianOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}>
       <div className='overflow-hidden '>
-        <p className='text-gray-600 '>{answer}</p>
+        <p className='text-green-600 text-lg '>{answer}</p>
       </div>
     </div>
   </div>

@@ -8,8 +8,10 @@ import FeaturedProducts from '../sections/landing/FeaturedProducts'
 import Cta from '../sections/landing/Cta'
 import Faq from '../sections/landing/Faq'
 import Footer from "../components/Footer"
+import DocumentTitle from '../utils/DocumentTitle'
 
 function Landing() {
+  DocumentTitle("Start exploring here")
   return (
     <>
       <Header/>

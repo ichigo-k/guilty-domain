@@ -11,6 +11,8 @@
   @apply max-xl:p-[5px] xl:px-[15rem]
 }
 
+
+
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
